@@ -11,3 +11,11 @@ script:
  - mvn test -B
  - ./mvnw test -B 
 
+services:
+  - mysql
+addons:
+  apt:
+    sources:
+      - mysql-5.7-trusty
+    packages:
+      - mysql-server
