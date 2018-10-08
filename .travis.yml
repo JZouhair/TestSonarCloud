@@ -11,6 +11,6 @@ script:
  - mvn test -B
  - ./mvnw test -B 
 services:
- - mysql
+ - mysql 
 
 
